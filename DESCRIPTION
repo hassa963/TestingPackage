@@ -1,0 +1,23 @@
+Package: TestingPackage
+Type: Package
+Title: An example package for BCB410
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Nour", "Hassan",
+      email = "nour.hassan@mail.utoronto.ca",
+      role = c("aut", "cre")
+    )
+  )
+Maintainer: Nour Hassan <nour.hassan@mail.utoronto.ca>
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    edgeR,
+    mclust
+Depends: 
+    R (>= 3.1.0)
+RoxygenNote: 7.3.3
