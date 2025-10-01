@@ -6,7 +6,7 @@
 #' of observations
 #'
 #' @examples
-#' InfCriteriaV (loglikelihood = -5080,
+#' InfCriteria (loglikelihood = -5080,
 #'                clusters = 2,
 #'                dimensions = 3,
 #'               nObservations = 1000)
