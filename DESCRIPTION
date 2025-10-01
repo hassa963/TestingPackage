@@ -1,23 +1,11 @@
 Package: TestingPackage
-Type: Package
-Title: An example package for BCB410
-Version: 0.1.0
-Authors@R: c(
-    person(
-      "Nour", "Hassan",
-      email = "nour.hassan@mail.utoronto.ca",
-      role = c("aut", "cre")
-    )
-  )
-Maintainer: Nour Hassan <nour.hassan@mail.utoronto.ca>
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Nour", "Hassan", , "nour.hassan@mail.utoronto.ca", role = c("aut", "cre"))
+Maintainer: Nour Hassan <nour.hassan@mail.utoronto.ca>    
+Description: testing
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
-Imports: 
-    edgeR,
-    mclust
-Depends: 
-    R (>= 3.1.0)
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
