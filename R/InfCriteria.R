@@ -1,14 +1,21 @@
-#start to work on your functions and analysis
-# Oct 2025
-# Purpose: Lecture 5
-# Information criteria
+#' Calculate Information Criteria Value for Model Selection
+#'
+#' Calculates information criteria values, BIC and AIC for model
+#' selection in Gaussian mixture models, provided loglikelihood
+#' number of clusters, dimensionality of dataset, and number
+#' of observations
+#'
+#' @examples
+#' InfCriteriaV (loglikelihood = -5080,
+#'                clusters = 2,
+#'                dimensions = 3,
+#'               nObservations = 1000)
+#'
+#'
+#' @export
 
-# InfCriteriaV3 (loglikelihood = -5080,
-#               clusters = 2,
-#               dimensions = 3,
-#               nObservations = 1000)
 
-InfCriteriaV3 <- function(loglikelihood, clusters,
+InfCriteria <- function(loglikelihood, clusters,
                           dimensions, nObservations = 100) {
 
   # calculate number of parameters based on Gaussian mixture
